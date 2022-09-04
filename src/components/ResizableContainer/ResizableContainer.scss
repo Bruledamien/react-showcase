@@ -1,0 +1,18 @@
+.resizable-container {
+  overflow: hidden;
+  background: rgba(250, 0, 0, 0.2);
+  padding: 6px;
+  position: relative;
+
+  .resizeable-container-handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 2px;
+    height: 100%;
+    background: black;
+    float: right;
+  }
+}

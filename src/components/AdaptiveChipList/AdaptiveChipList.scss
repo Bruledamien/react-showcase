@@ -1,0 +1,18 @@
+// import 'src/less/colors';
+
+.resizable-label-list {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: -4px;
+    flex-grow: 1; // note: width 100% breaks pop-ups
+}
+
+.resizable-label-list-popup.ui.popup {
+    max-width: 30vw;
+    padding: 10px 8px;
+}
+
+.measure-text-temp {
+    visibility: hidden;
+}
